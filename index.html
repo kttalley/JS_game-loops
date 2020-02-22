@@ -9,8 +9,14 @@
     <style>
         canvas {
             background: #222;
-            height:100%;
-            width:100%;
+            height:460px;
+            width:832px;
+            display: block;
+        }
+        #vertCanvas {
+            background: rgba(255,100,255,0.2);
+            height:460px;
+            width: 832px;
             display: block;
         }
     </style>
@@ -18,6 +24,8 @@
 </head>
 <body>
     <canvas id="canvas"></canvas>
+    <canvas id="vertCanvas"></canvas>
     <script type="text/javascript" src='./main.js'></script>
+    <script type="text/javascript" src='./vert.js'></script>
 </body>
 </html>
